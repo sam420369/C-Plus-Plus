@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\ACER\source\repos\C++\Inheritance\Source.cpp(33,121): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\ACER\source\repos\C++\Inheritance\Source.cpp(36,19): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+Inheritance.obj : error LNK2005: main already defined in constructor_destructor.obj
+C:\Users\ACER\source\repos\C++\Inheritance\x64\Debug\Inheritance.exe : fatal error LNK1169: one or more multiply defined symbols found
