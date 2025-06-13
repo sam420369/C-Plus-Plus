@@ -3,15 +3,13 @@
 
 #include <iostream>
 #include <vector>
-#include "Header.h"
+#include "Account.h"
+#include "Savings_Account.h"
+#include "Checking_Account.h"
+#include "Trust_Account.h"
 
-void display(const std::vector<Account> Accounts);
-void deposit(std::vector<Account>& Accounts, int amount);
-void withdraw(std::vector<Account>& Accounts, int amount);
-
-void display(const std::vector<Savings_Account> Accounts);
-void deposit(std::vector<Savings_Account>& Accounts, int amount);
-void withdraw(std::vector<Savings_Account>& Accounts, int amount);
-
+void display(const std::vector<Account*> Accounts);
+void deposit(std::vector<Account*>& Accounts, double amount);
+void withdraw(std::vector<Account*>& Accounts, double amount);
 #endif // !_ACCOUNT_UTILS_H_
 	

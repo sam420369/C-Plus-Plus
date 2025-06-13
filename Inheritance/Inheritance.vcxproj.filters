@@ -18,21 +18,42 @@
     <ClCompile Include="Inheritance.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="Account_Utils.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include="constructor_destructor.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Account.cpp">
+      <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include="Account_Utils.cpp">
+    <ClCompile Include="Savings_Account.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Trust_Account.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Checking_Account.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I_Printable.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h">
+    <ClInclude Include="Accounts_Utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Accounts_Utils.h">
+    <ClInclude Include="Account.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Checking_Account.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Savings_Account.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Trust_Account.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I_Printable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -127,14 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Account.cpp" />
     <ClCompile Include="Account_Utils.cpp" />
-    <ClCompile Include="constructor_destructor.cpp" />
+    <ClCompile Include="Checking_Account.cpp" />
     <ClCompile Include="Inheritance.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="I_Printable.cpp" />
+    <ClCompile Include="Savings_Account.cpp" />
+    <ClCompile Include="Trust_Account.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Account.h" />
     <ClInclude Include="Accounts_Utils.h" />
-    <ClInclude Include="Header.h" />
+    <ClInclude Include="Checking_Account.h" />
+    <ClInclude Include="I_Printable.h" />
+    <ClInclude Include="Savings_Account.h" />
+    <ClInclude Include="Trust_Account.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

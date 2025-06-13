@@ -1,0 +1,3 @@
+﻿  IO and Stream.cpp
+C:\Users\ACER\source\repos\C++\IO and Stream\IO and Stream.cpp(23,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  IO and Stream.vcxproj -> C:\Users\ACER\source\repos\C++\IO and Stream\x64\Debug\IO and Stream.exe
